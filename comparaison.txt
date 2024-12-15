@@ -1,0 +1,48 @@
+ Erreur quadratique: 0.228601461891677
+R2 (r carré) 0.5566660242562838
+
+
+ Erreur quadratique: 0.22669742564276618
+R2 (r carré) 0.560358581395703
+
+Rfr
+Erreur Quadratique Moyenne (Entraînement) : 0.09201289287675254
+Erreur Quadratique Moyenne (Test) : 0.23091893374605676
+R2 Score (Entraînement) : 0.821285928885597
+R2 Score (Test) : 0.5521716784967488
+
+Ridge
+Erreur Quadratique Moyenne (Entraînement) : 0.2262706999390093
+Erreur Quadratique Moyenne (Test) : 0.22662639744541335
+R2 Score (Entraînement) : 0.5605207412164451
+R2 Score (Test) : 0.5604963286037119
+
+
+Lasso
+Erreur Quadratique Moyenne (Entraînement) : 0.3174350765582615
+Erreur Quadratique Moyenne (Test) : 0.314098276479598
+R2 Score (Entraînement) : 0.3834547195225485
+R2 Score (Test) : 0.39085937362932044
+
+KNN
+Erreur Quadratique Moyenne (Entraînement) : 0.21672601437850503
+Erreur Quadratique Moyenne (Test) : 0.22532642221212293
+R2 Score (Entraînement) : 0.5790591173145576
+R2 Score (Test) : 0.5630174112939709
+
+KNN model = KNeighborsRegressor(n_neighbors=27,weights='uniform',metric='manhattan')
+Erreur Quadratique Moyenne (Entraînement) : 0.20532844937076283
+Erreur Quadratique Moyenne (Test) : 0.2185174998123063
+R2 Score (Entraînement) : 0.6011962893960074
+R2 Score (Test) : 0.5762221677861736
+
+
+RidgeCV
+Meilleur alpha pour Ridge : 10.0
+Erreur Quadratique Moyenne (Entraînement) : 0.22636723202086237
+Erreur Quadratique Moyenne (Test) : 0.22666110655753807
+
+LassoCV
+Meilleur alpha pour Lasso : 0.0008718702700644168
+Erreur Quadratique Moyenne (Entraînement) : 0.2286163007531687
+Erreur Quadratique Moyenne (Test) : 0.2288646585809183
